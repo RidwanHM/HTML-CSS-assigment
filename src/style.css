@@ -1,0 +1,349 @@
+header{background-color:#315579;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 41px;   
+     }
+    
+    
+    html{height: 100%;}
+    
+    body{
+    min-height: 100%;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;}
+    
+    
+    
+    .logo{
+    margin:0px;
+    padding: 0px;
+    
+    }
+    
+    .fa-sharp1{
+    margin: 0px;
+    margin-top: 0px;
+    width: 37px;
+    height: 26px;
+    
+    
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }     
+    
+    .fa-sharp2{
+        
+        
+        font-family: 'Font Awesome 5 Free';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: right;
+        color: #FFFFFF;   
+    }
+    
+    nav{
+    padding-top: 0.5em;    
+    padding-left:2em;}
+    
+    nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:4rem;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    .hero { 
+    padding: 0;
+    width: 100%;
+    min-height: 24vh;
+    
+    }
+    
+    h2{box-sizing: border-box;
+        width: 76px;
+        margin-bottom: 0px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 4px;
+        text-align: left;
+        
+        color: #000000;
+        border-bottom: #315579;
+        
+        }
+    
+        .line {
+            position: relative;
+            margin: 8px;
+            width: 66px;
+            height: 1px;
+            background-color:#315579 ;
+           }
+           .line:after {
+            position: absolute;
+            content: "";
+            width: 5px;
+            height: 5px;
+            background-color:#315579;
+            right: 0;
+            top: -2px;
+            transform: rotate(45deg);
+           }
+    
+    .jacket1{
+        width: 66px;
+        height: 84px;
+        border-radius: 70px;
+        background-color:rgba(230, 220, 220, 0.308);
+        }
+     .Stormbreaker{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 15px;
+        text-align: left;
+        
+     }
+    
+     .windrunner{
+        width: 66px;
+        height: 84px;
+        border-radius: 70px;
+     }
+    
+     .jacket2{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height:15px;
+        
+     }
+    
+     .jacket3{
+       width: 66px;
+       height: 84px;
+       border-radius: 70px; 
+     }
+    
+     .text-jacket{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height:15px;
+        margin: 10px 5px;
+       
+        }
+    
+    .jacket4{
+        width: 66px;
+        height: 84px;
+        border-radius: 70px;
+    }
+    
+    .forest{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height:15px;
+    }
+    
+    .products{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .jacket-image{
+        padding: 3px;
+        
+    
+    }
+    
+    .jacket5{
+        width: 66px;
+        height: 84px;
+        border-radius: 70px;
+    }
+    
+    .jacket6{
+        width: 66px;
+        height: 84px;
+        border-radius: 70px;
+    }
+    
+    .jacket7{
+        width: 66px;
+        height: 84px;
+        border-radius: 70px;
+    }
+    
+    .jacket8{
+        width: 66px;
+        height: 84px;
+        border-radius: 70px;
+    }
+    
+    .row2{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    footer{
+        background-color:#315579;
+        padding: 0px;
+        width: 100%; 
+        display: flex;
+        flex-direction: row;
+        gap: 9rem;
+     }
+    
+     .social{
+        margin-top: 3px;
+        margin-left: 12px;
+        width: 66px;
+        height: 30px;
+        background-color:#315579;
+        background-blend-mode: luminosity;
+     }
+     
+     .info{
+        width:89px;
+        height: 32px;
+        font-family: space Grotesk;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 5px;
+        line-height: 8px;
+        text-align: right;
+        color: #FFFFFF;
+    
+     }
+    
+    .about{
+        display: flex;
+        flex-direction: row;
+       margin-top: 21px; 
+       margin-bottom: 38px;
+    }
+    
+    .text-about{
+      width: 183px;
+      height: 103px;  
+      font-family: share tech;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 11px;
+      padding-left: 9px;
+    }
+    
+    .i-about{
+        width: 115px;
+        height: 135px;
+    }
+    
+    .b-about{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 65px;
+    height: 35px;
+    background: #315579;
+    border-radius: 25px;
+    margin: -54px 231px;
+    margin-bottom: 62px;
+    
+    }
+    
+    .b-about-text{
+    width: 60px;
+    height: 15px;
+    font-family: share tech;
+    font-weight: 400; 
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 8px 0px;
+    
+    }
+    
+    .i-contact{
+    width: 115px;
+    height: 135px;
+    padding-right: 28px;
+    }
+    
+    .h-contact{ 
+    width:165px ;
+    height: 25px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    }
+    
+    .text-contact{
+    width: 131px;
+    height: 78px;
+    font-family: space Grotesk;
+    font-style: normal;
+    font-weight:300 ;
+    font-size: 10px;
+    line-height: 13px;
+    }
+    
+    .contact-us{
+    display: flex; 
+    flex-direction: row;
+    }
+    
+    .b-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+        width: 65px;
+        height: 35px;
+        background: #315579;
+        border-radius: 25px;
+        margin: -11px 231px;
+        margin-bottom: 62px;
+    
+    }
+    
+    
+    
+    @media screen and (min-width: 1000px){
+    main{display: flex;
+    flex-direction: row;
+    gap:3rem}
+    .b-about,.b-contact{margin: 0px;}
+    .desktop-jackets{margin-left: 16px;}
+    a{text-decoration: none;}
+    .fa-sharp2{display: none;}
+    footer{gap:1rem}
+    }

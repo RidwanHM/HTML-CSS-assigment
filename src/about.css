@@ -1,0 +1,206 @@
+header{background-color:#315579;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 41px;   
+     }
+    
+    
+    html{
+    height: 100%;
+    }
+    
+     body{
+    min-height: 100%;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;}
+    
+    
+    
+    .logo{
+    margin:0px;
+    padding: 0px;
+    
+    }
+    
+    .fa-sharp1{
+    margin: 0px;
+    margin-top: 0px;
+    width: 37px;
+    height: 26px;
+    
+    
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }     
+    
+    .fa-sharp2{
+        
+        
+        font-family: 'Font Awesome 5 Free';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: right;
+        color: #FFFFFF;   
+    }
+
+    nav{
+        padding-top: 0.5em;    
+        padding-left:2em;}
+        
+        nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap:4rem;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        }
+        .hero{ 
+            padding: 0;
+            width: 100%;
+            min-height: 24vh;
+            
+            }
+
+            h1{box-sizing: border-box;
+                width:100%;
+                margin-bottom: 0px;
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 4px;
+                text-align: left;
+                
+                color: #000000;
+                border-bottom: #315579;
+                
+                }
+            
+                .line {
+                    position: relative;
+                    margin: 8px;
+                    width: 66px;
+                    height: 1px;
+                    background-color:#315579 ;
+                   }
+                   .line:after {
+                    position: absolute;
+                    content: "";
+                    width: 5px;
+                    height: 5px;
+                    background-color:#315579;
+                    right: 0;
+                    top: -2px;
+                    transform: rotate(45deg);
+                   }
+
+.about-slogan{
+    width: 70%;
+    font-family: share tech;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 11px;
+    text-align: center;
+    color: #315579;
+}
+
+.about-text{
+    font-family: share tech;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 11px;
+    text-align: center;
+    padding: 1rem;}
+
+h2{
+   
+    font-family: share tech;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: center;
+    color: #315579;
+}
+
+.line-comfort {
+    position: relative;
+    margin: 7px;
+    margin-left: 10px;
+    width: 270px;
+    height: 1px;
+    background-color: #315579;
+}
+
+.line-comfort:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #315579;
+    right: 0;
+    top: -2px;
+    transform: rotate(45deg);}
+
+
+.content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+footer{
+    background-color:#315579;
+    padding: 0px;
+    width: 100%;
+    margin-top: auto; 
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+ }
+
+ .social{
+    margin-top: 3px;
+    margin-left: 12px;
+    width: 66px;
+    height: 30px;
+    background-color:#315579;
+    background-blend-mode: luminosity;
+ }
+ 
+ .info{
+    width:89px;
+    height: 32px;
+    font-family: space Grotesk;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5px;
+    line-height: 8px;
+    text-align: right;
+    color: #FFFFFF;
+
+ }
+
+ @media screen and (min-width: 700px){
+.content{display: flex;
+flex-direction: row;
+}
+h1{display: flex;
+justify-content: center;}
+.line,.line-comfort{display: none;}
+.fa-sharp2{display: none;}
+footer{gap:1rem}}
